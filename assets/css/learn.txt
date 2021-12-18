@@ -1,0 +1,17 @@
+(-------------box-sizing: border-box;------------------------)
+
+La propiedad de CSS box-sizing indica cómo se deben calcular las medidas de un elemento. 
+Esto, que parece trivial, no lo es tanto ya que por defecto CSS considera que el ancho y 
+alto de la caja es de las propiedades width y height. ¿Qué significa esto? 
+Pues que si le añades un padding o un border el tamaño de renderizado de la 
+caja será: width + padding + border.
+
+El valor border-box en el box-sizing hace que el padding y el border pasen a 
+formar parte del cálculo del ancho de la caja y no lo suman posteriormente.
+
+(-------------------scroll-behavior: smooth;---------------------------)
+
+La propiedad de comportamiento de desplazamiento especifica si se debe animar 
+suavemente la posición de desplazamiento, en lugar de un salto directo, cuando 
+el usuario hace clic en un enlace dentro de un cuadro desplazable.
+Al agregar smooth suaviza el desplzamiento.
