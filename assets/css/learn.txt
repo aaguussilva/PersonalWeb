@@ -15,3 +15,17 @@ La propiedad de comportamiento de desplazamiento especifica si se debe animar
 suavemente la posición de desplazamiento, en lugar de un salto directo, cuando 
 el usuario hace clic en un enlace dentro de un cuadro desplazable.
 Al agregar smooth suaviza el desplzamiento.
+
+(-----------------position: fixed;---------------------)
+
+ los elementos con position: fixed toman como referencia la ventana del navegador 
+ }y no respetan el tener un contenedor padre que esté posicionado. Además, al hacer 
+ scroll en la página, el elemento que esté posicionado como position: fixed seguirá en 
+ la misma posición respecto a la ventana del navegador aunque el scroll haya desplazado 
+ la página hacia abajo.
+
+ (---------------z-index: var(--z-fixed);----------------)
+
+ La propiedad del índice z especifica el orden de pila de un elemento. 
+ Un elemento con un orden de pila mayor siempre está delante de un elemento 
+ con un orden de pila menor.
