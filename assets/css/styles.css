@@ -464,10 +464,6 @@ img {
     width: 70%;
 }
 
-/*==================== QUALIFICATION ====================*/
-
-/*==================== SERVICES ====================*/
-
 
 /* Active Modal */
 
@@ -531,11 +527,6 @@ img {
 .swiper-pagination-bullet{
     outline: none;
 }
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
 
 /*==================== CONTACT ME ====================*/
 .contact__container{
@@ -586,8 +577,37 @@ img {
 }
 
 /*==================== FOOTER ====================*/
+.footer{
+    padding-top: 2rem;
+}
 
+.footer__container{
+    row-gap: 3.5rem;
+}
 
+.footer__bg{
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+}
+
+.footer__title{
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer__subtitle{
+    font-size: var(--small-font-size);
+}
+
+.footer__links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.footer__link:hover{
+    color: var(--first-color-lighter);
+}
 /*========== SCROLL UP ==========*/
 
 
