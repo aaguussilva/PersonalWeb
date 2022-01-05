@@ -608,6 +608,12 @@ img {
 .footer__link:hover{
     color: var(--first-color-lighter);
 }
+
+.footer__title,
+.footer__subtitle,
+.footer__link{
+    color: #FFF;
+}
 /*========== SCROLL UP ==========*/
 
 
