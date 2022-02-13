@@ -34,12 +34,6 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*==================== ACCORDION SKILLS ====================*/
 
 
-/*==================== QUALIFICATION TABS ====================*/
-
-
-/*==================== SERVICES MODAL ====================*/
-
-
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiper = new Swiper('.swiper', {
     cssMode: true,
@@ -53,8 +47,6 @@ let swiper = new Swiper('.swiper', {
       clickable: true,
     },
   });
-
-/*==================== TESTIMONIAL ====================*/
 
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
@@ -123,3 +115,9 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== FORM ====================*/ 
+
+document.getElementById("button__sumbit").onclick = function() {
+    document.getElementById("form").submit();
+}

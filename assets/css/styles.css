@@ -396,27 +396,6 @@ img {
     margin-bottom: var(--mb-2-5);
 }
 
-.about__info{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: var(--mb-2-5);
-}
-
-.about__info-title{
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-semi-bold);
-    color: var(--title-color);
-}
-
-.about__info-name{
-    font-size: var(--smaller-font-size);
-}
-
-.about__info-title,
-.about__info-name{
-    display: block;
-    text-align: center;
-}
 
 .about__buttons{
     display: flex;
@@ -492,8 +471,25 @@ img {
     width: 70%;
 }
 
+.skills__python{
+    width: 60%;
+}
 
-/* Active Modal */
+.skills__javascript{
+    width: 50%;
+}
+
+.skills__c{
+    width: 85%;
+}
+
+.skills__git{
+    width: 85%;
+}
+
+.skills__ubuntu{
+    width: 90%;
+}
 
 
 /*==================== PORTFOLIO ====================*/
@@ -623,10 +619,6 @@ img {
     margin-bottom: var(--mb-0-25);
 }
 
-.footer__subtitle{
-    font-size: var(--small-font-size);
-}
-
 .footer__links{
     display: flex;
     flex-direction: column;
@@ -638,7 +630,6 @@ img {
 }
 
 .footer__title,
-.footer__subtitle,
 .footer__link{
     color: #FFF;
 }
@@ -821,10 +812,6 @@ img {
 
     .about__description{
         text-align: initial;
-    }
-
-    .about__info{
-        justify-content: space-between;
     }
 
     .about__buttons{
